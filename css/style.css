@@ -1,0 +1,82 @@
+@import url(fonts.css);
+.default-btn {
+  font-family: AvenirNext-Bold;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 0;
+  background: linear-gradient(180deg, #ffe300 0%, #de8311 100%);
+  box-shadow: none !important; }
+  .default-btn:hover {
+    color: white;
+    border: 1px solid; }
+
+body {
+  background: #25398e; }
+
+header {
+  background: #090d21;
+  border-bottom: 1px solid #818491; }
+  header p {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Roboto-Bold;
+    color: #e9e358;
+    letter-spacing: 0.9px; }
+    header p i {
+      font-size: 18px; }
+
+section.banner {
+  padding: 100px 0;
+  background-image: url("../images/bg-baner.png");
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  section.banner h1, section.banner h2 {
+    font-family: AvenirNext-Bold;
+    color: #e9e358;
+    text-transform: uppercase; }
+    section.banner h1 span, section.banner h2 span {
+      color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #fff; }
+  section.banner h1 {
+    font-size: 70px;
+    line-height: 35px; }
+  section.banner h2 {
+    font-size: 42px; }
+  section.banner h3 {
+    color: #fff;
+    font-family: AvenirNext-Bold;
+    line-height: 47px;
+    font-size: 52px;
+    text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.7); }
+    section.banner h3 span {
+      font-size: 39px; }
+  section.banner p {
+    color: #e9e358;
+    font-family: AvenirNextLTPro-Demi;
+    font-size: 28px;
+    letter-spacing: 6px;
+    text-transform: uppercase; }
+  section.banner ul li {
+    text-transform: capitalize;
+    text-align: start;
+    list-style: none;
+    color: #fff;
+    font-family: AvenirNextLTPro-Demi;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 2.5; }
+    section.banner ul li:before {
+      content: "\f101";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      margin-right: 25px; }
+  section.banner img.product {
+    max-width: 200px;
+    height: 400px; }
+  section.banner img.icons {
+    max-width: 250px; }
+  section.banner a.btn-banner {
+    font-size: 26px; }
