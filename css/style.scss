@@ -1,4 +1,5 @@
 @import "fonts.css";
+
 $color_yellow: #e9e358;
 
 .default-btn {
@@ -7,7 +8,7 @@ $color_yellow: #e9e358;
   text-transform: uppercase;
   border: 1px solid white;
   border-radius: 0;
-  background: linear-gradient(180deg, rgba(255,227,0,1) 0%, rgba(222,131,17,1) 100%);
+  background: linear-gradient(180deg, rgba(255, 227, 0, 1) 0%, rgba(222, 131, 17, 1) 100%);
   box-shadow: none !important;
 
   &:hover {
@@ -16,44 +17,44 @@ $color_yellow: #e9e358;
   }
 }
 
- body {
-   background: #25398e;
- }
+.transparent-text {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
 
- header {
-   background: #090d21;
-   border-bottom: 1px solid #818491;
+body {
+  background: #25398e;
+}
 
-   p {
-     font-size: 14px;
-     text-transform: uppercase;
-     font-family: Roboto-Bold;
-     color: $color_yellow;
-     letter-spacing: 0.9px;
+header {
+  background: #090d21;
+  border-bottom: 1px solid #818491;
 
-     i {
-       font-size: 18px;
-     }
-   }
- }
+  p {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Roboto-Bold;
+    color: $color_yellow;
+    letter-spacing: 0.9px;
+
+    i {
+      font-size: 18px;
+    }
+  }
+}
 
 section.banner {
   padding: 100px 0;
   background-image: url("../images/bg-baner.png");
-  background-size: cover;
-  background-position: center 0;
+  background-position: -80px 0;
+  background-size: 110%;
   background-repeat: no-repeat;
 
   h1, h2 {
     font-family: AvenirNext-Bold;
     color: $color_yellow;
     text-transform: uppercase;
-
-    span {
-      color: transparent;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #fff;
-    }
   }
 
   h1 {
@@ -89,7 +90,6 @@ section.banner {
     li {
       text-transform: capitalize;
       text-align: start;
-      list-style: none;
       color: #fff;
       font-family: AvenirNextLTPro-Demi;
       font-size: 22px;
@@ -116,5 +116,49 @@ section.banner {
 
   a.btn-banner {
     font-size: 26px;
+  }
+
+}
+
+section.description {
+  background: linear-gradient(180deg, rgba(12, 17, 43, 1) 0%, rgba(37, 57, 142, 1) 100%);
+
+  .wrapper-description {
+    background: #c64276;
+    padding-top: 64px;
+    border-radius: 50px 50px 0 0;
+
+    h2 {
+      font-family: AvenirNext-Bold;
+      color: #fff;
+      font-size: 62px;
+      line-height: 55px;
+
+      span {
+        font-size: 55px;
+      }
+    }
+
+    ul {
+      li {
+        font-family: AvenirNextLTPro-Regular;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 30px;
+
+        p {
+          font-family: AvenirNextLTPro-Bold;
+          font-size: 18px;
+        }
+      }
+    }
+
+    img.img-description {
+      position: absolute;
+      right: -56px;
+      bottom: 0;
+      max-width: 950px;
+      max-height: 800px;
+    }
   }
 }

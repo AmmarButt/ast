@@ -11,6 +11,11 @@
     color: white;
     border: 1px solid; }
 
+.transparent-text {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff; }
+
 body {
   background: #25398e; }
 
@@ -29,17 +34,13 @@ header {
 section.banner {
   padding: 100px 0;
   background-image: url("../images/bg-baner.png");
-  background-size: cover;
-  background-position: center 0;
+  background-position: -80px 0;
+  background-size: 110%;
   background-repeat: no-repeat; }
   section.banner h1, section.banner h2 {
     font-family: AvenirNext-Bold;
     color: #e9e358;
     text-transform: uppercase; }
-    section.banner h1 span, section.banner h2 span {
-      color: transparent;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #fff; }
   section.banner h1 {
     font-size: 70px;
     line-height: 35px; }
@@ -62,7 +63,6 @@ section.banner {
   section.banner ul li {
     text-transform: capitalize;
     text-align: start;
-    list-style: none;
     color: #fff;
     font-family: AvenirNextLTPro-Demi;
     font-size: 22px;
@@ -80,3 +80,31 @@ section.banner {
     max-width: 250px; }
   section.banner a.btn-banner {
     font-size: 26px; }
+
+section.description {
+  background: linear-gradient(180deg, #0c112b 0%, #25398e 100%); }
+  section.description .wrapper-description {
+    background: #c64276;
+    padding-top: 64px;
+    border-radius: 50px 50px 0 0; }
+    section.description .wrapper-description h2 {
+      font-family: AvenirNext-Bold;
+      color: #fff;
+      font-size: 62px;
+      line-height: 55px; }
+      section.description .wrapper-description h2 span {
+        font-size: 55px; }
+    section.description .wrapper-description ul li {
+      font-family: AvenirNextLTPro-Regular;
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 30px; }
+      section.description .wrapper-description ul li p {
+        font-family: AvenirNextLTPro-Bold;
+        font-size: 18px; }
+    section.description .wrapper-description img.img-description {
+      position: absolute;
+      right: -56px;
+      bottom: 0;
+      max-width: 950px;
+      max-height: 800px; }
