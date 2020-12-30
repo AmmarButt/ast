@@ -16,6 +16,18 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff; }
 
+.rtl {
+  border-radius: 35px 0 0 0; }
+
+.rtr {
+  border-radius: 0 35px 0 0; }
+
+.rbr {
+  border-radius: 0 0 35px 0; }
+
+.rbl {
+  border-radius: 0 0 0 35px; }
+
 body {
   background: #25398e; }
 
@@ -84,7 +96,10 @@ section.banner {
 section.description {
   background: linear-gradient(180deg, #0c112b 0%, #25398e 100%); }
   section.description .wrapper-description {
-    background: #c64276;
+    background-image: url("../images/bg-section2.png");
+    background-position: 100% center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 64px;
     border-radius: 50px 50px 0 0; }
     section.description .wrapper-description h2 {
@@ -104,7 +119,103 @@ section.description {
         font-size: 18px; }
     section.description .wrapper-description img.img-description {
       position: absolute;
-      right: -56px;
+      right: 100px;
       bottom: 0;
-      max-width: 950px;
-      max-height: 800px; }
+      max-width: 524px;
+      max-height: 625px; }
+
+section.product_use {
+  background-image: url(../images/bg-section.png);
+  background-position: 100% center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  section.product_use h2 {
+    line-height: 1;
+    font-family: AvenirNext-Bold;
+    color: #fff;
+    font-size: 62px; }
+    section.product_use h2 span {
+      font-size: 48px; }
+  section.product_use h4, section.product_use h3, section.product_use p {
+    color: white; }
+  section.product_use h4 {
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden; }
+  section.product_use h3 {
+    font-family: Roboto-Bold;
+    font-size: 21px;
+    overflow: hidden;
+    height: 45px; }
+  section.product_use p {
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 14px;
+    height: 190px;
+    overflow: hidden; }
+  section.product_use img.person {
+    width: 270px;
+    height: 360px; }
+  section.product_use img.arrow {
+    position: absolute;
+    top: 120px;
+    left: -30px; }
+
+section.about_ingredient {
+  background: #fff;
+  border-radius: 0 0 50px 50px; }
+  section.about_ingredient h2 {
+    color: #1c2a6b;
+    font-family: AvenirNext-Bold;
+    font-size: 62px;
+    line-height: 0.9; }
+    section.about_ingredient h2 span.transparent-text {
+      font-size: 47px;
+      -webkit-text-stroke-color: #1c2a6b; }
+  section.about_ingredient h5 {
+    color: #1c2a6b;
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    text-transform: uppercase; }
+  section.about_ingredient p {
+    color: #1c2a6b;
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 16px; }
+  section.about_ingredient ul {
+    list-style: none; }
+    section.about_ingredient ul li {
+      margin-bottom: 30px; }
+
+section.reviews h2 {
+  font-family: AvenirNext-Bold;
+  font-size: 62px;
+  color: #e9e358;
+  line-height: 0.9; }
+  section.reviews h2 span {
+    font-size: 42px; }
+section.reviews .card-top {
+  background: linear-gradient(120deg, #d5903d 0%, #eed077 100%); }
+  section.reviews .card-top p {
+    font-family: SofiaProLight;
+    height: 195px;
+    overflow: hidden;
+    font-size: 14px; }
+    section.reviews .card-top p i {
+      color: white; }
+section.reviews .card-bottom {
+  background: #fff; }
+  section.reviews .card-bottom h6, section.reviews .card-bottom p {
+    margin-bottom: 0; }
+  section.reviews .card-bottom i {
+    color: #fcd85a; }
+section.reviews img.user-photo {
+  position: absolute;
+  bottom: 110px; }
+section.reviews img.img-label {
+  width: 100px;
+  height: 100px; }
+section.reviews p.text-label {
+  font-family: AvenirNextLTPro-Bold;
+  color: white; }
