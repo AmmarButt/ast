@@ -16,18 +16,6 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff; }
 
-.rtl {
-  border-radius: 35px 0 0 0; }
-
-.rtr {
-  border-radius: 0 35px 0 0; }
-
-.rbr {
-  border-radius: 0 0 35px 0; }
-
-.rbl {
-  border-radius: 0 0 0 35px; }
-
 body {
   background: #25398e; }
 
@@ -188,34 +176,42 @@ section.about_ingredient {
     section.about_ingredient ul li {
       margin-bottom: 30px; }
 
-section.reviews h2 {
+section.testimonials h2 {
   font-family: AvenirNext-Bold;
   font-size: 62px;
   color: #e9e358;
   line-height: 0.9; }
-  section.reviews h2 span {
+  section.testimonials h2 span {
     font-size: 42px; }
-section.reviews .card-top {
+section.testimonials .testimonials-block :first-child .card-top {
+  border-top-left-radius: 35px; }
+section.testimonials .testimonials-block :first-child .card-bottom {
+  border-bottom-left-radius: 35px; }
+section.testimonials .testimonials-block :last-of-type .card-top {
+  border-top-right-radius: 35px; }
+section.testimonials .testimonials-block :last-of-type .card-bottom {
+  border-bottom-right-radius: 35px; }
+section.testimonials .card-top {
   background: linear-gradient(120deg, #d5903d 0%, #eed077 100%); }
-  section.reviews .card-top p {
+  section.testimonials .card-top p {
     font-family: SofiaProLight;
     height: 195px;
     overflow: hidden;
     font-size: 14px; }
-    section.reviews .card-top p i {
+    section.testimonials .card-top p i {
       color: white; }
-section.reviews .card-bottom {
+section.testimonials .card-bottom {
   background: #fff; }
-  section.reviews .card-bottom h6, section.reviews .card-bottom p {
+  section.testimonials .card-bottom h6, section.testimonials .card-bottom p {
     margin-bottom: 0; }
-  section.reviews .card-bottom i {
+  section.testimonials .card-bottom i {
     color: #fcd85a; }
-section.reviews img.user-photo {
+section.testimonials img.user-photo {
   position: absolute;
   bottom: 110px; }
-section.reviews img.img-label {
+section.testimonials img.img-label {
   width: 100px;
   height: 100px; }
-section.reviews p.text-label {
+section.testimonials p.text-label {
   font-family: AvenirNextLTPro-Bold;
   color: white; }

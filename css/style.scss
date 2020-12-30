@@ -23,19 +23,6 @@ $color_yellow: #e9e358;
   -webkit-text-stroke-color: #fff;
 }
 
-.rtl {
-  border-radius: 35px 0 0 0;
-}
-.rtr {
-  border-radius: 0 35px 0 0;
-
-}
-.rbr {
-  border-radius: 0 0 35px 0;
-}
-.rbl {
-  border-radius: 0 0 0 35px;
-}
 
 body {
   background: #25398e;
@@ -276,7 +263,7 @@ section.about_ingredient {
   }
 }
 
-section.reviews {
+section.testimonials {
   h2 {
     font-family: AvenirNext-Bold;
     font-size: 62px;
@@ -285,6 +272,26 @@ section.reviews {
 
     span {
       font-size: 42px;
+    }
+  }
+
+  .testimonials-block :first-child {
+    .card-top {
+      border-top-left-radius: 35px;
+    }
+
+    .card-bottom {
+      border-bottom-left-radius: 35px;
+    }
+  }
+
+  .testimonials-block :last-of-type {
+    .card-top {
+      border-top-right-radius: 35px;
+    }
+
+    .card-bottom {
+      border-bottom-right-radius: 35px;
     }
   }
 
@@ -329,4 +336,8 @@ section.reviews {
     font-family: AvenirNextLTPro-Bold;
     color: white;
   }
+}
+
+section.product-buy {
+
 }
