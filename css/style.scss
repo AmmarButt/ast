@@ -386,6 +386,7 @@ section.product-buy {
     background: #f6f6f6;
     border: 3px solid #fff;
     border-radius: 20px;
+    cursor: pointer;
 
     &:after {
       content: "";
@@ -440,6 +441,7 @@ section.product-buy {
       width: 100%;
       overflow: hidden;
 
+
       .btn-prise {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -449,6 +451,7 @@ section.product-buy {
 
         label {
           width: 100%;
+          cursor: pointer;
 
           span {
             font-size: 13px;
@@ -512,8 +515,6 @@ section.product-buy {
   }
 
   img.icons-product {
-      display: block;
-      margin: 0 auto;
       max-width: 210px;
   }
 }
@@ -523,6 +524,19 @@ footer {
   padding-bottom: 80px;
   border-top: 1px solid white;
   background: linear-gradient(180deg, rgba(37,57,142,1) 0%, rgba(15,25,60,1) 100%);
+
+  a {
+    margin-right: 10px;
+
+    img {
+      width: 37px;
+      height: 37px;
+    }
+
+    &:last-of-type {
+      margin-right: 30px;
+    }
+  }
 
   p {
     font-size: 14px;

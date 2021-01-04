@@ -251,7 +251,8 @@ section.product-buy {
     padding: 0;
     background: #f6f6f6;
     border: 3px solid #fff;
-    border-radius: 20px; }
+    border-radius: 20px;
+    cursor: pointer; }
     section.product-buy .card-product:after {
       content: "";
       border: 1px solid #fff;
@@ -297,7 +298,8 @@ section.product-buy {
         background: white;
         background: linear-gradient(180deg, #ffffff 0%, #d5d4d5 100%); }
         section.product-buy .card-product .btn-prise-group .btn-prise label {
-          width: 100%; }
+          width: 100%;
+          cursor: pointer; }
           section.product-buy .card-product .btn-prise-group .btn-prise label span {
             font-size: 13px;
             line-height: 17px;
@@ -334,8 +336,6 @@ section.product-buy {
     width: 35%;
     font-size: 24px; }
   section.product-buy img.icons-product {
-    display: block;
-    margin: 0 auto;
     max-width: 210px; }
 
 footer {
@@ -343,6 +343,13 @@ footer {
   padding-bottom: 80px;
   border-top: 1px solid white;
   background: linear-gradient(180deg, #25398e 0%, #0f193c 100%); }
+  footer a {
+    margin-right: 10px; }
+    footer a img {
+      width: 37px;
+      height: 37px; }
+    footer a:last-of-type {
+      margin-right: 30px; }
   footer p {
     font-size: 14px;
     color: white;
